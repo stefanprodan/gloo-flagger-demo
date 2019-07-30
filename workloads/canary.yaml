@@ -46,7 +46,7 @@ spec:
         # milliseconds
         threshold: 500
         interval: 30s
-    # Testing (optional)
+    # testing (optional)
     webhooks:
       - name: acceptance-test
         type: pre-rollout
