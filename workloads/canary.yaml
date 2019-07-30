@@ -4,6 +4,8 @@ metadata:
   name: podinfo
   namespace: test
 spec:
+  # traffic manager provider
+  # can be: kubernetes, istio, linkerd, appmesh, nginx, gloo, supergloo
   provider: gloo
   # deployment reference
   targetRef:
